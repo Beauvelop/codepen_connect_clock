@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  fontFamily: sans-serif;
+  background: linear-gradient(130deg, #d3d3d3 0%, #555 100%) center;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+}
+
+.clock-container {
+position: relative;
+/* width: 100vw;
+height: 100vh; */
+}
+
+
+
+.hour-sec-mark {
+  stroke-width: 2px;
+}
+
+.grunge,
+.face-layers-svg,
+.seconds-face-svg,
+.hourmarks-svg,
+.numbers-layer-svg,
+.hands-container-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vw;
+  /* height: 100%;   */
+}
+
+.seconds-face-svg {
+  transform: rotate(.3deg);
+  /* stroke-width: 1px; */
+}
+
